@@ -11,6 +11,4 @@ Application Descriptor Repository for the FOLIO Mediated requests application.
 
 ## UI Modules
 
-| UI module name          |
-|:------------------------|
-| `folio_requests-mediated`       |
+N/A
