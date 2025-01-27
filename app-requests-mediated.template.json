@@ -10,9 +10,5 @@
   "modules": [  {
     "name": "mod-requests-mediated",
     "version": "1.0.5"
-  }],
-  "uiModules": [  {
-    "name": "folio_requests-mediated",
-    "version": "2.0.1"
   }]
 }
