@@ -5,8 +5,8 @@ Application Descriptor Repository for the FOLIO Mediated requests application.
 
 ## Modules
 
-| Module name        |
-|:-------------------|
+| Module name             |
+|:------------------------|
 | `mod-requests-mediated` |
 
 ## UI Modules
