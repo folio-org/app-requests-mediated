@@ -3,16 +3,13 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
-      "name": "app-platform-complete",
-      "version": "^2.1.0-SNAPSHOT"
-    }
-  ],
-  "modules": [
-    {
-      "name": "mod-requests-mediated",
-      "version": "latest"
-    }
-  ]
+  "dependencies": [  {
+    "name": "app-platform-complete",
+    "version": "^2.1.0-SNAPSHOT"
+  }],
+  "modules": [  {
+    "name": "mod-requests-mediated",
+    "version": "1.2.4"
+  }],
+  "uiModules": []
 }
