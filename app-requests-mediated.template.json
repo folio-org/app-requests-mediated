@@ -3,16 +3,14 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
-      "name": "app-platform-complete",
-      "version": "^2.1.0"
-    }
-  ],
-  "modules": [
-    {
-      "name": "mod-requests-mediated",
-      "version": "latest"
-    }
-  ]
+  "dependencies": [  {
+    "name": "app-platform-complete",
+    "version": "^2.1.0"
+  }],
+  "modules": [  {
+    "name": "mod-requests-mediated",
+    "version": "1.2.10",
+    "url": "https://mdr-folio-eis-us-east-1-dev.s3.amazonaws.com/mod-requests-mediated-1.2.10"
+  }],
+  "uiModules": []
 }
