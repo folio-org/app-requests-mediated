@@ -8,6 +8,11 @@
       "name": "app-platform-complete",
       "version": "^3.0.0-SNAPSHOT",
       "preRelease": "only"
+    },
+    {
+      "name": "app-inventory",
+      "version": "^1.0.0-SNAPSHOT",
+      "preRelease": "only"
     }
   ],
   "modules": [
