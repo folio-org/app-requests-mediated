@@ -6,14 +6,14 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^2.1.0",
+      "version": "^VERSION_^2.1.0",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-requests-mediated",
-      "version": "latest",
+      "version": "^VERSION_latest",
       "preRelease": "false"
     }
   ]
