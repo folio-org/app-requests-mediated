@@ -1,12 +1,12 @@
 {
-  "id" : "app-requests-mediated-3.1.0-SNAPSHOT.100200000011567",
+  "id" : "app-requests-mediated-3.1.0-SNAPSHOT.100200000011959",
   "name" : "app-requests-mediated",
-  "version" : "3.1.0-SNAPSHOT.100200000011567",
+  "version" : "3.1.0-SNAPSHOT.100200000011959",
   "description" : "Application for the Mediated Requests installation",
   "modules" : [ {
-    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2170",
+    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2179",
     "name" : "mod-requests-mediated",
-    "version" : "1.4.0-SNAPSHOT.2170"
+    "version" : "1.4.0-SNAPSHOT.2179"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -19,7 +19,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2170",
+    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2179",
     "name" : "Folio mod-requests-mediated module",
     "requires" : [ {
       "id" : "users",
@@ -208,7 +208,7 @@
         "pathPattern" : "/batch-mediated-requests-recovery",
         "unit" : "minute",
         "delay" : "5",
-        "modulePermissions" : [ "pubsub.publish.post", "user-tenants.collection.get", "consortium-search.items.item.get", "tlr.ecs-request-external.post", "circulation.requests.item.get", "circulation.requests.item.post", "circulation.requests.allowed-service-points.get", "mod-settings.entries.collection.get", "mod-settings.global.read.mod-requests-mediated.batch-config.manage" ]
+        "modulePermissions" : [ "user-tenants.collection.get", "consortium-search.items.item.get", "tlr.ecs-request-external.post", "circulation.requests.item.get", "circulation.requests.item.post", "circulation.requests.allowed-service-points.get", "mod-settings.entries.collection.get", "mod-settings.global.read.mod-requests-mediated.batch-config.manage" ]
       } ]
     }, {
       "id" : "_tenant",
@@ -332,7 +332,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-requests-mediated:1.4.0-SNAPSHOT.2170",
+      "dockerImage" : "folioci/mod-requests-mediated:1.4.0-SNAPSHOT.2179",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
