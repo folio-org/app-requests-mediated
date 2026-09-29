@@ -1,12 +1,12 @@
 {
-  "id" : "app-requests-mediated-3.1.0-SNAPSHOT.100200000012028",
+  "id" : "app-requests-mediated-3.1.0-SNAPSHOT.100200000012192",
   "name" : "app-requests-mediated",
-  "version" : "3.1.0-SNAPSHOT.100200000012028",
+  "version" : "3.1.0-SNAPSHOT.100200000012192",
   "description" : "Application for the Mediated Requests installation",
   "modules" : [ {
-    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2182",
+    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2187",
     "name" : "mod-requests-mediated",
-    "version" : "1.4.0-SNAPSHOT.2182"
+    "version" : "1.4.0-SNAPSHOT.2187"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -19,7 +19,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2182",
+    "id" : "mod-requests-mediated-1.4.0-SNAPSHOT.2187",
     "name" : "Folio mod-requests-mediated module",
     "requires" : [ {
       "id" : "users",
@@ -332,7 +332,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-requests-mediated:1.4.0-SNAPSHOT.2182",
+      "dockerImage" : "folioci/mod-requests-mediated:1.4.0-SNAPSHOT.2187",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
